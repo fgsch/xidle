@@ -1,6 +1,5 @@
-/*	$OpenBSD: xidle.c,v 1.3 2011/11/18 00:16:57 fgsch Exp $	*/
 /*
- * Copyright (c) 2005 Federico G. Schwindt
+ * Copyright (c) 2005 Federico G. Schwindt <fgsch@lodoss.net>
  * Copyright (c) 2005 Claudio Castiglia
  *
  * Redistribution and use in source and binary forms, with or without
@@ -24,6 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+/*	$OpenBSD: xidle.c,v 1.3 2011/11/18 00:16:57 fgsch Exp $	*/
 
 #include <X11/Xlib.h>
 #include <X11/Xresource.h>
