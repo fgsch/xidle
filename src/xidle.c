@@ -98,10 +98,10 @@ void	handler(int);
 void	parse_opts(int, char **, Display **, int *, int *, int *, int *,
 	    char **);
 int	str2pos(const char *);
-__dead void	usage(void);
+void	usage(void) __attribute__((noreturn));
 
 
-__dead void
+void
 usage()
 {
 	fprintf(stderr, "Usage:\n%s %s\n", __progname,
