@@ -1,0 +1,16 @@
+AC_INIT([xidle], [0.1.0])
+AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_SRCDIR(src/xidle.c)
+AM_CONFIG_HEADER(config.h)
+
+AM_INIT_AUTOMAKE([foreign])
+
+AC_PROG_CC_C99
+AC_PROG_LIBTOOL
+
+PKG_CHECK_MODULES([X11], [x11])
+PKG_CHECK_MODULES([XSCRNSAVER], [xscrnsaver])
+
+AC_CONFIG_FILES([Makefile src/Makefile])
+AC_OUTPUT
