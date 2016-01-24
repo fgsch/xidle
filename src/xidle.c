@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2005 Federico G. Schwindt <fgsch@lodoss.net>
- * Copyright (c) 2005 Claudio Castiglia
+ * Copyright (c) 2005 Claudio Castiglia <ccastiglia@gmail.com>
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
